@@ -64,6 +64,11 @@ jobs:
             CONFIG_PACKAGE_ip6tables-nft=y
             CONFIG_PACKAGE_libxtables12=y
 
+            CONFIG_PACKAGE_luci-app-adguardhome=y
+            CONFIG_PACKAGE_adguardhome=y
+
+            CONFIG_PACKAGE_upx=y
+
             CONFIG_PACKAGE_luci-app-sqm=y
             CONFIG_PACKAGE_sqm-scripts=y
             CONFIG_PACKAGE_kmod-sched-cake=y
